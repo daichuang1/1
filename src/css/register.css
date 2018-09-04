@@ -1,0 +1,170 @@
+* {padding: 0;margin: 0;box-sizing: border-box;}
+li {list-style: none;}
+h1,h2,h3,h4,h5 {margin: 0;padding: 0;}
+body {position: relative;}
+
+.box1 {
+	width: 7.5rem;
+	height: 1rem;
+	background: #F4F4F4;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.box1 div {
+	width: 0.5rem;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 0.3rem;
+}
+.box1 div img {
+	width: 40%;
+	height: auto;
+}
+.box1 h4 {
+	/*background:url(../img/详情页/返回图标拷贝.png) no-repeat 0.4rem center;
+	background-size: 3% auto;*/
+	display: block;
+	flex: 1;
+	font-size: 0.38rem;
+	font-weight:normal;
+	text-align: center;
+}
+.box2 {
+	width: 7.5rem;
+	padding: 0 1rem;
+	margin: 0.4rem 0 ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.box2 div {
+	flex: 1;
+	height: 0.7rem;
+	text-align: center;
+}
+.a {
+	border-bottom: 2px solid #8C8C8C;
+}
+.box2 div p {
+	font-size: 0.28rem;
+	font-weight: normal;
+}
+
+.box {
+	width: 7.5rem;
+	font-size: 0.3rem;
+}
+.box-sms {
+	width: 7.5rem;
+	padding: 0 0.5rem;
+	display: none;
+}
+.box-sms div {
+	width: 6.5rem;
+	height:0.8rem;
+	border-bottom: 1px solid #eee;
+}
+.box-sms div input {
+	width: 100%;
+	height: 100%;
+	padding-left:0.4rem;
+	font-size: 0.3rem;
+	color: #8C8C8C;
+	border: none;
+}
+
+.box-note {
+	width: 7.5rem;
+	padding: 0 0.5rem;
+	display: none;
+}
+.box-note div {
+	width: 6.5rem;
+	height:0.8rem;
+	border-bottom: 1px solid #eee;
+	position: relative;
+}
+.box-note div input {
+	width: auto;
+	height: 100%;
+	padding-left:0.4rem;
+	font-size: 0.3rem;
+	color: #8C8C8C;
+	border: none;
+}
+.note-1 {
+	padding-left: 0.4rem;
+}
+#note-2 {
+	padding-left: 0rem;
+	width: 3rem;
+}
+.box-note div p {
+	display: block;
+	width: 1.2rem;
+	position: absolute;
+	right: 5%;
+	top: 25%;
+	font-size: 0.24rem;
+}
+/**/
+.jia {
+	display: block;
+}
+/**/
+.box3 {
+	width: 7.5rem;
+	height: 0.8rem;
+	padding: 0 1.75rem;
+	margin-top: 0.8rem;
+}
+.box3 span {
+	display: block;
+	width:4rem;
+	height: 100%;
+	border-radius: 0.2rem;
+	background: #eee;
+	font-size:0.36rem;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.box4 {
+	margin-top: 0.4rem;
+	width: 7.5rem;
+	padding:0 1.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.box4 span {
+	display: block;
+	font-size:0.28rem;
+}
+.box5 {
+	width: 7.5rem;
+	font-size: 0.2rem;
+	color: #9c9c9c;
+	padding:0 1.3rem;
+	left: 0;
+	bottom: 5%;
+}
+.box5 p {
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.box5 div {
+	display: flex;
+	margin: 0.3rem 0;
+	justify-content: space-between;
+	align-items: center;
+}
+.box5 div img {
+	width: 1rem;
+	height: auto;
+}
+
+
+

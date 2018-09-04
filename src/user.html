@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/user.css"/>
+	</head>
+	<body>
+		<div class="box1">
+			<img src="img/list/pic_list_back.jpg" onclick="history.back()"/>
+			<h4>个人资料</h4>
+		</div>
+		<div class="box2">
+			<div class="box2-left"><img src="img/user/tx.jpg"/></div>
+			<div class="box2-center">
+				<p>浅色</p>
+				<span>会员名：浅色</span>
+			</div>
+			<div class="box2-right"><h5 onclick="jump()">设置</h5></div>
+		</div>
+		<div class="box3">
+			<ul>
+				<li><img src="img/user/代付款.png"/><span>待付款</span></li>
+				<li><img src="img/user/待收货.png"/><span>待付款</span></li>
+				<li><img src="img/user/退换售后.png"/> <span>待付款</span></li>
+				<li><img src="img/user/全部订单.png"/><span>待付款</span></li>
+			</ul>
+		</div>
+		<div class="box3">
+			<ul>
+				<li><p>12</p><span>待付款</span></li>
+				<li><p>11</p><span>待付款</span></li>
+				<li><p>131</p><span>待付款</span></li>
+				<li><p>4</p><span>待付款</span></li>
+			</ul>
+		</div>
+		<div class="box3">
+			<ul>
+				<li><img src="img/user/次要应用 (1).png"/><span>预约</span></li>
+				<li><img src="img/user/次要应用 (2).png"/><span>车票</span></li>
+				<li><img src="img/user/次要应用 (3).png"/><span>福利</span></li>
+				<li><img src="img/user/次要应用 (4).png"/><span>机票</span></li>	
+			</ul>
+			<ul class="liwai">
+				<li><img src="img/user/次要应用 (5).png"/><span>酒店</span></li>
+				<li><img src="img/user/次要应用 (6).png"/><span>营业厅</span></li>
+				<li><img src="img/user/次要应用 (7).png"/><span>推荐</span></li>
+				<li><img src="img/user/none.png"/><span></span></li>
+			</ul>
+		</div>
+		<div class="fuwu">
+			<p>客户服务</p>
+			<img src="img/右方向.png"/>
+		</div>
+
+		<script src="vue/dist/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="axios/dist/axios.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/JS.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var jump=function(){
+				location="设置.html"
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/shopcar.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="message" onclick="history.back()"><img src="img/list/pic_list_back.jpg"/></div>
+			<div class="search">
+				购物车
+			</div>
+			<div class="sys"><img src="img/list/pic_list_list.jpg"/></div>
+		</header>
+		<div id="box">
+		<div class="preLogin">
+			<a href="#">登录</a>
+			后可以查看历史收藏，还能使用优惠券噢~
+		</div>
+	
+		<main>
+			<div v-for="(item,index) in obj">
+				<h2>孝感{{item.name}}自营店</h2>
+				<div class="shop_content">
+					<div>
+						<input type="checkbox" checked v-model="item.bool" />
+						<div class="shop_photo">
+							<img :src="item.img" />
+						</div>
+						<div class="shop_info">
+							<h3>{{item.title}}</h3>
+							<div>
+								<div class="count">
+									<button @click="jian(item,index)">-</button>
+									<input type="number" v-model="item.num"  min="1" />
+									<button @click="jia(item)">+</button>
+								</div>
+								<div class="shop_price">
+									<em>￥{{item.price}}.00</em>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+		<footer>
+			<input type="checkbox" v-model="selectAll" v-on:change="select()"/>
+			<div>
+				<p>应付金额：<em>￥{{total}}</em></p>
+				<span>已优惠:￥0.00</span>
+			</div>
+			<button @click="next()">去结算（{{num3}}）</button>
+		</footer>
+		</div>
+	
+	<script src="js/JS.js" type="text/javascript" charset="utf-8"></script>
+	<script src="vue/dist/vue.js"></script>
+	<script>
+		var app=new Vue({
+			el:"#box",
+			data:{
+				obj:JSON.parse(localStorage.getItem("shopCar"))||[],
+				num:1,
+				selectAll:true
+			},
+			methods:{
+				jia(item){
+							item.num++
+//							localStorage.removeItem("shopCar")
+					localStorage.setItem("shopCar",JSON.stringify(this.obj))
+					},
+					jian(item,index){
+						if(item.num<=1){
+							if(confirm("你确定要删除这件商品吗？")){
+								this.obj.splice(index,1)
+							}
+							
+						}else{item.num--
+//							localStorage.removeItem("shopCar")
+						localStorage.setItem("shopCar",JSON.stringify(this.obj))
+						}
+					},
+					select(){
+					for(var i=0; i<this.obj.length;i++){
+						if(this.selectAll){
+							this.obj[i].bool=true
+						}else{
+							this.obj[i].bool=false
+						}
+					}
+				},
+				next(){
+					if(localStorage.getItem("phone")){
+						location="pay.html"
+						localStorage.setItem("total",JSON.stringify(this.total))
+					}else{
+						localStorage.setItem("total",JSON.stringify(this.total))
+						localStorage.setItem("loginjump","pay.html")
+						location="denglu.html"
+					}
+				}
+			},
+			computed:{
+				total(){
+					var res=0
+					for(var i=0;i<this.obj.length;i++){
+						if(this.obj[i].bool==true){
+							res+=this.obj[i].price*this.obj[i].num
+						}
+						
+					}
+					return res
+				},
+				num3(){
+					var num2=0
+					for(var i=0;i<this.obj.length;i++){
+						num2+=this.obj[i].bool;
+					}
+					return num2
+				}
+			}
+		})
+		
+	</script>
+	</body>
+</html>

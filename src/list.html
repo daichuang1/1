@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/list.css"/>
+	</head>
+	<body>
+	<div id="box">
+		<header>
+			<div class="message" onclick="history.back()"><img src="img/list/pic_list_back.jpg"/></div>
+			<div class="search">
+				<input type="text" value="请输入商品、商家、服务" />
+			</div>
+			<div class="sys"><img src="img/list/pic_list_list.jpg"/></div>
+		</header>
+		
+		<div class="btns">
+			<b class="active" >综合</b>
+			<b @click="pay('pay')">销量</b>
+			<b class="icon" @click="pay('price')">价格</b>
+			<b class="icon select" @click="gg()">
+				<span>筛选</span>
+			</b>
+		</div>
+	
+			<div v-if="isshow">
+			<p>您搜索的商品不存在</p>
+			</div>
+			<main v-else>
+				<div v-for="item in ary" >
+				<div><img v-bind:src="item.img" v-on:click="jump(item.id)"/></div>
+				<p>{{item.title}}</p>
+				<em>￥{{item.price}}.00 <span>手机专享</span></em>
+				<span>{{item.pay}}付款/{{item.msg}}评价</span>
+			</div>
+		</main>
+		</div>
+		<script src="vue/dist/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="axios/dist/axios.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap3.3.5/js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/JS.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			console.log(decodeURI(location.search.split("=")[1]))
+			var codestr=decodeURI(location.search.split("=")[1])
+			var app=new Vue({
+				el:"#box",
+				data:{
+					isShow:true,
+					ary:[],
+					isSort:true,
+					isPrice:false,
+					low:"",
+					high:"",
+					arySave:[]
+				},
+				created(){
+					if(codestr != "undefined"){
+						
+							this.isshow=false
+						axios.get("/list/"+codestr).then(
+//							res返回函数,用来接收服务器传来的数据,传来的数据储存在data中
+						(res)=>{
+							if(res.data.length != 0){
+								console.log(res)
+							this.ary=res.data;
+							}
+							
+					}
+					)
+						}	
+				},
+				methods:{
+					jump(id){
+						location = "detail.html?id="+id;
+					},
+					pay(attr){
+						if(this.isSort){
+							this.ary.sort(function(a,b){
+								return a[attr] - b[attr];
+							})
+							this.isSort = false
+						}else{
+							this.ary.sort(function(a,b){
+								return b[attr] - a[attr];
+							})
+							this.isSort = true
+						}
+						$(".active").removeClass("active")
+					},
+					gg(){
+						$(".active").removeClass("active")
+					}
+					
+				}
+			})
+		
+		</script>
+	</body>
+</html>

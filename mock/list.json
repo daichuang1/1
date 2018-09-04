@@ -1,0 +1,476 @@
+[
+	{
+		"id":100001,
+		"category":"苹果",
+		"img":"img/list/iphone (1).jpg",
+		"banner1":"img/detail/txt/banner (1).jpg",
+		"banner2":"img/detail/txt/banner (2).jpg",
+		"banner3":"img/detail/txt/banner (3).jpg",
+		"title":"ipone6",
+		"price":4899,
+		"pay":568,
+		"msg":15,
+		"save":8,
+		"comment":[
+			{
+				"name":"小明",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (1).jpg",
+					"img/detail/PL (2).jpg",
+					"img/detail/PL (3).jpg"
+				]
+			},
+			{
+				"name":"小美",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (4).jpg",
+					"img/detail/PL (5).jpg",
+					"img/detail/PL (6).jpg"
+				]
+			}
+		],
+		"detail":[
+		"img/detail/detail/XQ (1).jpg",
+		"img/detail/detail/XQ (2).jpg",
+		"img/detail/detail/XQ (3).jpg",
+		"img/detail/detail/XQ (4).jpg",
+		"img/detail/detail/XQ (5).jpg",
+		"img/detail/detail/XQ (6).jpg",
+		"img/detail/detail/XQ (7).jpg",
+		"img/detail/detail/XQ (8).jpg",
+		"img/detail/detail/XQ (9).jpg",
+		"img/detail/detail/XQ (10).jpg",
+		"img/detail/detail/XQ (11).jpg",
+		"img/detail/detail/XQ (12).jpg",
+		"img/detail/detail/XQ (13).jpg",
+		"img/detail/detail/XQ (14).jpg",
+		"img/detail/detail/XQ (15).jpg"
+		
+		]
+	},
+	{
+		"id":100002,
+		"category":"苹果",
+		"img":"img/list/iphone (2).jpg",
+		"banner1":"img/detail/txt/banner (1).jpg",
+		"banner2":"img/detail/txt/banner (2).jpg",
+		"banner3":"img/detail/txt/banner (3).jpg",
+		"title":"ipone7",
+		"price":4899,
+		"pay":568,
+		"msg":15,
+		"save":8,
+		"comment":[
+			{
+				"name":"小明",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (1).jpg",
+					"img/detail/PL (2).jpg",
+					"img/detail/PL (3).jpg"
+				]
+			},
+			{
+				"name":"小美",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (4).jpg",
+					"img/detail/PL (5).jpg",
+					"img/detail/PL (6).jpg"
+				]
+			}
+		],
+		"detail":[
+		"img/detail/detail/XQ (1).jpg",
+		"img/detail/detail/XQ (2).jpg",
+		"img/detail/detail/XQ (3).jpg",
+		"img/detail/detail/XQ (4).jpg",
+		"img/detail/detail/XQ (5).jpg",
+		"img/detail/detail/XQ (6).jpg",
+		"img/detail/detail/XQ (7).jpg",
+		"img/detail/detail/XQ (8).jpg",
+		"img/detail/detail/XQ (9).jpg",
+		"img/detail/detail/XQ (10).jpg",
+		"img/detail/detail/XQ (11).jpg",
+		"img/detail/detail/XQ (12).jpg",
+		"img/detail/detail/XQ (13).jpg",
+		"img/detail/detail/XQ (14).jpg",
+		"img/detail/detail/XQ (15).jpg"
+		
+		]
+	},
+		{
+		"id":100003,
+		"category":"苹果",
+		"img":"img/list/iphone (3).jpg",
+		"title":"ipone8",
+		"price":4899,
+		"pay":568,
+		"msg":15,
+		"save":8,
+		"comment":[
+			{
+				"name":"小明",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (1).jpg",
+					"img/detail/PL (2).jpg",
+					"img/detail/PL (3).jpg"
+				]
+			},
+			{
+				"name":"小美",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (4).jpg",
+					"img/detail/PL (5).jpg",
+					"img/detail/PL (6).jpg"
+				]
+			}
+		],
+		"detail":[
+		"img/detail/detail/XQ (1).jpg",
+		"img/detail/detail/XQ (2).jpg",
+		"img/detail/detail/XQ (3).jpg",
+		"img/detail/detail/XQ (4).jpg",
+		"img/detail/detail/XQ (5).jpg",
+		"img/detail/detail/XQ (6).jpg",
+		"img/detail/detail/XQ (7).jpg",
+		"img/detail/detail/XQ (8).jpg",
+		"img/detail/detail/XQ (9).jpg",
+		"img/detail/detail/XQ (10).jpg",
+		"img/detail/detail/XQ (11).jpg",
+		"img/detail/detail/XQ (12).jpg",
+		"img/detail/detail/XQ (13).jpg",
+		"img/detail/detail/XQ (14).jpg",
+		"img/detail/detail/XQ (15).jpg"
+		
+		]
+	},
+		{
+		"id":100004,
+		"category":"三星",
+		"img":"img/list/san (1).jpg",
+		"banner1":"img/detail/txt/banner (1).jpg",
+		"banner2":"img/detail/txt/banner (2).jpg",
+		"banner3":"img/detail/txt/banner (3).jpg",
+		"title":"三星s5",
+		"price":4899,
+		"pay":568,
+		"msg":15,
+		"save":8,
+		"comment":[
+			{
+				"name":"小明",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (1).jpg",
+					"img/detail/PL (2).jpg",
+					"img/detail/PL (3).jpg"
+				]
+			},
+			{
+				"name":"小美",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (4).jpg",
+					"img/detail/PL (5).jpg",
+					"img/detail/PL (6).jpg"
+				]
+			}
+		],
+		"detail":[
+		"img/detail/detail/XQ (1).jpg",
+		"img/detail/detail/XQ (2).jpg",
+		"img/detail/detail/XQ (3).jpg",
+		"img/detail/detail/XQ (4).jpg",
+		"img/detail/detail/XQ (5).jpg",
+		"img/detail/detail/XQ (6).jpg",
+		"img/detail/detail/XQ (7).jpg",
+		"img/detail/detail/XQ (8).jpg",
+		"img/detail/detail/XQ (9).jpg",
+		"img/detail/detail/XQ (10).jpg",
+		"img/detail/detail/XQ (11).jpg",
+		"img/detail/detail/XQ (12).jpg",
+		"img/detail/detail/XQ (13).jpg",
+		"img/detail/detail/XQ (14).jpg",
+		"img/detail/detail/XQ (15).jpg"
+		
+		]
+	},
+		{
+		"id":100005,
+		"category":"三星",
+		"img":"img/list/san (2).jpg",
+		"banner1":"img/detail/txt/banner (1).jpg",
+		"banner2":"img/detail/txt/banner (2).jpg",
+		"banner3":"img/detail/txt/banner (3).jpg",
+		"title":"三星s5",
+		"price":4899,
+		"pay":568,
+		"msg":15,
+		"save":8,
+		"comment":[
+			{
+				"name":"小明",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (1).jpg",
+					"img/detail/PL (2).jpg",
+					"img/detail/PL (3).jpg"
+				]
+			},
+			{
+				"name":"小美",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (4).jpg",
+					"img/detail/PL (5).jpg",
+					"img/detail/PL (6).jpg"
+				]
+			}
+		],
+		"detail":[
+		"img/detail/detail/XQ (1).jpg",
+		"img/detail/detail/XQ (2).jpg",
+		"img/detail/detail/XQ (3).jpg",
+		"img/detail/detail/XQ (4).jpg",
+		"img/detail/detail/XQ (5).jpg",
+		"img/detail/detail/XQ (6).jpg",
+		"img/detail/detail/XQ (7).jpg",
+		"img/detail/detail/XQ (8).jpg",
+		"img/detail/detail/XQ (9).jpg",
+		"img/detail/detail/XQ (10).jpg",
+		"img/detail/detail/XQ (11).jpg",
+		"img/detail/detail/XQ (12).jpg",
+		"img/detail/detail/XQ (13).jpg",
+		"img/detail/detail/XQ (14).jpg",
+		"img/detail/detail/XQ (15).jpg"
+		
+		]
+	},
+		{
+		"id":100006,
+		"category":"三星",
+		"img":"img/list/san (3).jpg",
+		"banner1":"img/detail/txt/banner (1).jpg",
+		"banner2":"img/detail/txt/banner (2).jpg",
+		"banner3":"img/detail/txt/banner (3).jpg",
+		"title":"三星s5",
+		"price":4899,
+		"pay":568,
+		"msg":15,
+		"save":8,
+		"comment":[
+			{
+				"name":"小明",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (1).jpg",
+					"img/detail/PL (2).jpg",
+					"img/detail/PL (3).jpg"
+				]
+			},
+			{
+				"name":"小美",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (4).jpg",
+					"img/detail/PL (5).jpg",
+					"img/detail/PL (6).jpg"
+				]
+			}
+		],
+		"detail":[
+		"img/detail/detail/XQ (1).jpg",
+		"img/detail/detail/XQ (2).jpg",
+		"img/detail/detail/XQ (3).jpg",
+		"img/detail/detail/XQ (4).jpg",
+		"img/detail/detail/XQ (5).jpg",
+		"img/detail/detail/XQ (6).jpg",
+		"img/detail/detail/XQ (7).jpg",
+		"img/detail/detail/XQ (8).jpg",
+		"img/detail/detail/XQ (9).jpg",
+		"img/detail/detail/XQ (10).jpg",
+		"img/detail/detail/XQ (11).jpg",
+		"img/detail/detail/XQ (12).jpg",
+		"img/detail/detail/XQ (13).jpg",
+		"img/detail/detail/XQ (14).jpg",
+		"img/detail/detail/XQ (15).jpg"
+		
+		]
+	},
+		{
+		"id":100007,
+		"category":"小米",
+		"img":"img/list/mi (1).jpg",
+		"banner1":"img/detail/txt/banner (1).jpg",
+		"banner2":"img/detail/txt/banner (2).jpg",
+		"banner3":"img/detail/txt/banner (3).jpg",
+		"title":"小米5",
+		"price":4000,
+		"pay":600,
+		"msg":15,
+		"save":8,
+		"comment":[
+			{
+				"name":"小明",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (1).jpg",
+					"img/detail/PL (2).jpg",
+					"img/detail/PL (3).jpg"
+				]
+			},
+			{
+				"name":"小美",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (4).jpg",
+					"img/detail/PL (5).jpg",
+					"img/detail/PL (6).jpg"
+				]
+			}
+		],
+		"detail":[
+		"img/detail/detail/XQ (1).jpg",
+		"img/detail/detail/XQ (2).jpg",
+		"img/detail/detail/XQ (3).jpg",
+		"img/detail/detail/XQ (4).jpg",
+		"img/detail/detail/XQ (5).jpg",
+		"img/detail/detail/XQ (6).jpg",
+		"img/detail/detail/XQ (7).jpg",
+		"img/detail/detail/XQ (8).jpg",
+		"img/detail/detail/XQ (9).jpg",
+		"img/detail/detail/XQ (10).jpg",
+		"img/detail/detail/XQ (11).jpg",
+		"img/detail/detail/XQ (12).jpg",
+		"img/detail/detail/XQ (13).jpg",
+		"img/detail/detail/XQ (14).jpg",
+		"img/detail/detail/XQ (15).jpg"
+		
+		]
+	},
+		{
+		"id":100008,
+		"category":"小米",
+		"img":"img/list/mi (2).jpg",
+		"banner1":"img/detail/txt/banner (1).jpg",
+		"banner2":"img/detail/txt/banner (2).jpg",
+		"banner3":"img/detail/txt/banner (3).jpg",
+		"title":"小米6",
+		"price":5000,
+		"pay":7000,
+		"msg":15,
+		"save":8,
+		"comment":[
+			{
+				"name":"小明",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (1).jpg",
+					"img/detail/PL (2).jpg",
+					"img/detail/PL (3).jpg"
+				]
+			},
+			{
+				"name":"小美",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (4).jpg",
+					"img/detail/PL (5).jpg",
+					"img/detail/PL (6).jpg"
+				]
+			}
+		],
+		"detail":[
+		"img/detail/detail/XQ (1).jpg",
+		"img/detail/detail/XQ (2).jpg",
+		"img/detail/detail/XQ (3).jpg",
+		"img/detail/detail/XQ (4).jpg",
+		"img/detail/detail/XQ (5).jpg",
+		"img/detail/detail/XQ (6).jpg",
+		"img/detail/detail/XQ (7).jpg",
+		"img/detail/detail/XQ (8).jpg",
+		"img/detail/detail/XQ (9).jpg",
+		"img/detail/detail/XQ (10).jpg",
+		"img/detail/detail/XQ (11).jpg",
+		"img/detail/detail/XQ (12).jpg",
+		"img/detail/detail/XQ (13).jpg",
+		"img/detail/detail/XQ (14).jpg",
+		"img/detail/detail/XQ (15).jpg"
+		
+		]
+	},
+		{
+		"id":100009,
+		"category":"小米",
+		"img":"img/list/mi (3).jpg",
+		"banner1":"img/detail/txt/banner (1).jpg",
+		"banner2":"img/detail/txt/banner (2).jpg",
+		"banner3":"img/detail/txt/banner (3).jpg",
+		"title":"小米8",
+		"price":6000,
+		"pay":999,
+		"msg":15,
+		"save":8,
+		"comment":[
+			{
+				"name":"小明",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (1).jpg",
+					"img/detail/PL (2).jpg",
+					"img/detail/PL (3).jpg"
+				]
+			},
+			{
+				"name":"小美",
+				"date":"2018-5-29",
+				"content":"太贵了，差评！",
+				"pic":[
+					"img/detail/PL (4).jpg",
+					"img/detail/PL (5).jpg",
+					"img/detail/PL (6).jpg"
+				]
+			}
+		],
+		"detail":[
+		"img/detail/detail/XQ (1).jpg",
+		"img/detail/detail/XQ (2).jpg",
+		"img/detail/detail/XQ (3).jpg",
+		"img/detail/detail/XQ (4).jpg",
+		"img/detail/detail/XQ (5).jpg",
+		"img/detail/detail/XQ (6).jpg",
+		"img/detail/detail/XQ (7).jpg",
+		"img/detail/detail/XQ (8).jpg",
+		"img/detail/detail/XQ (9).jpg",
+		"img/detail/detail/XQ (10).jpg",
+		"img/detail/detail/XQ (11).jpg",
+		"img/detail/detail/XQ (12).jpg",
+		"img/detail/detail/XQ (13).jpg",
+		"img/detail/detail/XQ (14).jpg",
+		"img/detail/detail/XQ (15).jpg"
+		
+		]
+	}
+]

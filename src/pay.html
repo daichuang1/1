@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/pay.css"/>
+	</head>
+	<body>
+		<div id="main">
+		<div class="box1">
+			<img src="img/list/pic_list_back.jpg" onclick="history.back()"/>
+			<!--<img src=""/>-->
+			<h4>订单确认</h4>
+		</div>
+		<div class="box5">
+			<p>买家姓名</p>
+			<p><span>代闯</span><img src="img/右方向.png"/></p>
+			
+		</div>
+		<div class="box5">
+			<p>买家地址</p>
+			<p><span>信阳职业技术学院</span><img src="img/右方向.png"/></p>
+			
+		</div>
+		<div class="box5">
+			<p>邮政编码</p>
+			<p><span>0396-0000</span><img src="img/右方向.png"/></p>
+			
+		</div>
+		<div class="box5">
+			<p>买家留言</p>
+			<p><span>无</span><img src="img/右方向.png"/></p>
+			
+		</div>
+		<div class="box5">
+			<p>配送方式</p>
+			<p><span>顺丰快递</span><img src="img/右方向.png"/></p>
+			
+		</div>
+		
+		<div class="box5">
+			<p>支付方式</p>
+			<p><span>支付宝</span><img src="img/右方向.png"/></p>
+		</div>
+		
+		
+		<div class="foon">
+			<div>
+				<span>合计</span>
+				<b>￥{{total}}</b>
+			</div>
+			<div>
+				<p @click="jump()">确认支付</p>
+			</div>
+		</div>
+		</div>
+		<script src="vue/dist/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="axios/dist/axios.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/JS.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var app=new Vue({
+				el:"#main",
+				data:{
+					obj:JSON.parse(localStorage.getItem("shopCar")),
+					total:JSON.parse(localStorage.getItem("total"))
+				},
+				methods:{
+					jump(){
+						location="user.html";
+					}
+				}
+				
+			})
+		</script>
+	</body>
+</html>

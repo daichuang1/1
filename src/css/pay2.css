@@ -1,0 +1,95 @@
+* {padding: 0;margin: 0;box-sizing: border-box;}
+.box1 {
+	width: 7.5rem;
+	height: 1rem;
+	background: #F4F4F4;
+	text-align: center;
+	line-height: 1rem;
+}
+.box1 h4 {
+	background:url(../img/详情页/返回图标拷贝.png) no-repeat 0.4rem center;
+	background-size: 3% auto;
+	font-size: 0.38rem;
+	font-weight:normal;
+}
+.box2 {
+	width: 7.5rem;
+	height: 0.8rem;
+	font-size: 0.28rem;
+	border-bottom: 0.2rem solid #f4f4f4 ;
+}
+.box2 ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	text-align: center;
+}
+.box2 ul li {
+	list-style: none;
+}
+.box3 {
+	width: 7.5rem;
+	height: 0.6rem;
+	border-bottom:solid #eee 1px;
+	font-size:0.26rem;
+	
+	padding-left: 0.4rem;
+}
+.box3 div {
+	display: flex;
+	width: 6.8rem;
+	height: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.box4 {
+	width: 7.5rem;
+	/*height: 2.3rem;*/
+	padding-left: 0.4rem;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	border-bottom: 1px solid #f4f4f4;
+	font-size:0.24rem;
+	display: flex;
+}
+.box4 div {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.box4 div img {
+	width: 100%;
+	height: 100%;
+}
+.box4 div p {
+	width: 5.3rem;
+	padding-left: 0.3rem; 
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.4rem;
+}
+.box4 div p span {
+	font-size: 0.28rem;
+	color: #D43F3A;
+}
+.box5 {
+	width: 7.5rem;
+	height: 1rem;
+	font-size: 0.34rem;
+	color: red;
+	display: flex;
+	justify-content: space-between;
+	padding:0.2rem 0.4rem;
+	/*border-bottom: 1px solid #f4f4f4;*/
+	border-bottom: 0.2rem solid #f4f4f4 ;
+}
+.box5 p {
+	font-size: 0.28rem;
+	border: 1px solid red;
+	display: block;
+	width: 1.5rem;
+	height: 0.5rem;
+	border-radius: 0.1rem;
+	text-align: center;
+	line-height: 0.5rem;
+}

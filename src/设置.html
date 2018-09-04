@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/设置.css"/>
+	</head>
+	<body>
+		<div class="box1">
+			<img src="img/list/pic_list_back.jpg" onclick="history.back()"/>
+			<!--<img src=""/>-->
+			<h4>个人设置</h4>
+		</div>
+		<div class="box2">
+			<p>头像</p>
+			<img src="img/user/tx.jpg"/>
+		</div>
+		<div class="box5">
+			<p>用户名</p>
+			<p><span>13223897636</span></p>
+		</div>
+		<div class="box5">
+			<p>昵称</p>
+			<p><span>浅色</span></p>
+		</div>
+		<div class="box5">
+			<p>性别</p>
+			<p><span>男</span></p>
+		</div>
+		<div class="box5">
+			<p>出生日期</p>
+			<p><span>1998-12-22</span></p>
+		</div>
+		<div class="box6">
+			<p>账号安全等级</p>
+			<p><span>中</span></p>
+		</div>
+		<div class="foot">
+			<p onclick="logout()">退出登录</p>
+		</div>
+		<script src="vue/dist/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="axios/dist/axios.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/JS.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var logout=function(){
+						location="index.html"
+						localStorage.removeItem("phone")
+					}
+		</script>
+	</body>
+</html>

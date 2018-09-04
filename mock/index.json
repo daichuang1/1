@@ -1,0 +1,30 @@
+[
+	{
+		"ico1":[
+			{"img":"img/ico (1).png","t":"生鲜"},
+			{"img":"img/ico (1).png","t":"生鲜"},
+			{"img":"img/ico (1).png","t":"生鲜"},
+			{"img":"img/ico (1).png","t":"生鲜"},
+			{"img":"img/ico (1).png","t":"生鲜"}		
+		],
+		"ico2":[
+			{"img1":"img/ico (6).png","t1":"生鲜"},
+			{"img2":"img/ico (7).png","t2":"生鲜"},
+			{"img3":"img/ico (8).png","t3":"生鲜"},
+			{"img4":"img/ico (9).png","t4":"生鲜"},
+			{"img5":"img/ico (10).png","t5":"生鲜"}
+		],
+		"p1":"京东秒杀",
+		"p2":"查看更多",
+		"img1":[
+			{"img":"img/miaosha (2).png","txt":"$1399"},
+			{"img":"img/miaosha (2).png","txt":"$1399"},
+			{"img":"img/miaosha (2).png","txt":"$1399"},
+			{"img":"img/miaosha (2).png","txt":"$1399"},
+			{"img":"img/miaosha (2).png","txt":"$1399"},
+			{"img":"img/miaosha (2).png","txt":"$1399"},
+			{"img":"img/miaosha (2).png","txt":"$1399"}
+		]
+	},
+	{}
+]
